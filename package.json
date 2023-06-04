@@ -1,0 +1,29 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "first game",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "game-start": "bin/game-start.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRose7/npm-init.git"
+  },
+  "author": "Sandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexRose7/npm-init/issues"
+  },
+  "homepage": "https://github.com/AlexRose7/npm-init#readme",
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
