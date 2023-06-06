@@ -1,7 +1,7 @@
-const elements = ["камень", "ножницы", "бумага"];
+const elements = ['камень', 'ножницы', 'бумага'];
 
 function getCompChoice() {
-  const i = Math.floor(Math.random() * 3);
+  const i = Math.floor(Math.random() * elements.length);
   return elements[i];
 }
 
