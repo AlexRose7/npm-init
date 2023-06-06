@@ -1,9 +1,9 @@
-import readlineSync from "readline-sync";
+import readlineSync from 'readline-sync';
 
-const elements = ["камень", "ножницы", "бумага"];
+const elements = ['камень', 'ножницы', 'бумага'];
 
 function getUserChoice() {
-  const choice = readlineSync.question("Каким будет ваш выбор?").toLowerCase();
+  const choice = readlineSync.question('Каким будет ваш выбор?').toLowerCase();
   if (choice === elements[0]) {
     return choice;
   }
@@ -13,7 +13,7 @@ function getUserChoice() {
   if (choice === elements[2]) {
     return choice;
   }
-  return "ERROR!\nубедитесь, что вы поняли во что вы играете)";
+  return 'ERROR! Убедитесь, что вы поняли во что вы играете)\nОбратите внимание на выбор вашего оппонента!';
 }
 
 export default getUserChoice;

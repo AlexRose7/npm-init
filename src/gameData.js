@@ -1,11 +1,11 @@
-import getUserChoice from "./user.js";
+import getUserChoice from './user.js';
 
-import getCompChoice from "./computer.js";
+import getCompChoice from './computer.js';
 
-import getWinner from "./winner.js";
+import getWinner from './winner.js';
 
 function runGame() {
-  console.log("Добро пожаловать в игру камень, ножницы, бумага!");
+  console.log('Добро пожаловать в игру камень, ножницы, бумага!');
   const userChoice = getUserChoice();
   const computerChoice = getCompChoice();
   console.log(
